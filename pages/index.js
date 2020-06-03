@@ -1,9 +1,9 @@
-import HelloWorld from '../component/hello-world'
+import Hero from "../component/hero";
 
 export default function Home() {
   return (
-    <div className="example">
-      <HelloWorld />
-    </div>
-  )
+    <main>
+      <Hero />
+    </main>
+  );
 }
